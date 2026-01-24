@@ -5,8 +5,12 @@
 // Note: table-of-contents: none - let Quarto handle TOC
 // appendix.enabled: false - Quarto handles appendix chapters directly
 #show: ilm.with(
-  title: "Book Title",
-  author: "Author",
+$if(title)$
+  title: [$title$],
+$endif$
+$if(by-author)$
+  author: "$for(by-author)$$it.name.literal$$sep$, $endfor$",
+$endif$
   table-of-contents: none,
   appendix: (enabled: false),
   bibliography: none,
