@@ -230,10 +230,10 @@ _quarto:
           - "See Listing 1\\.1 from Chapter 1[\\s\\S]*Listing 2\\.1"
       ensurePdfTextPositions:
         - # Code listings should be left-aligned with body text, not centered
-          - subject: "hello():"
+          - subject: "ALIGNTEST_MARKER"
             relation: leftAligned
             object: "LISTING_BODY_ALIGN_TEST"
-            tolerance: 25
+            tolerance: 15
 ---
 
 # Preface {.unnumbered}
