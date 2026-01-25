@@ -19,4 +19,4 @@ $endif$
 
 // Apply chapter-based numbering to all figures
 // ILM may not number Quarto's custom figure kinds (quarto-float-fig, etc.)
-#set figure(numbering: quarto-figure-numbering)
+#set figure(numbering: figure-numbering)
