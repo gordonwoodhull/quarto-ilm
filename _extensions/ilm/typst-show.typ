@@ -16,3 +16,7 @@ $endif$
   bibliography: none,
   chapter-pagebreak: true,
 )
+
+// Apply chapter-based numbering to all figures
+// ILM may not number Quarto's custom figure kinds (quarto-float-fig, etc.)
+#set figure(numbering: quarto-figure-numbering)
