@@ -232,10 +232,11 @@ _quarto:
         - # Code listings should be left-aligned with body text, not centered.
           # NOTE: Subject must be text at the START of a line because
           # ensurePdfTextPositions uses word positions, not semantic containers.
+          # Tolerance accounts for 8pt inset in Skylighting code blocks.
           - subject: "ALIGNTEST_MARKER"
             relation: leftAligned
             object: "LISTING_BODY_ALIGN_TEST"
-            tolerance: 5
+            tolerance: 15
 ---
 
 # Preface {.unnumbered}
