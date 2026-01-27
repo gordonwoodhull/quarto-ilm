@@ -238,8 +238,9 @@ _quarto:
           - "Sortiva.*Listing 2\\.1"
           # Chapter 3 callouts
           - "Important 3\\.1: The Answer"
-          - "Ultimata"
-          - "documented in Important 3\\.1"
+          # Note: Long words may be hyphenated in narrow margin, use shorter unique text
+          - "ultimate question"
+          - "response documented"
           # Chapter 3 dinosaurs
           - "Dinosaur 3\\.1:.*Pterosaura"
           - "Dinosaur 3\\.1.*aerodynamic"
@@ -385,32 +386,32 @@ _quarto:
             relation: leftOf
             object: "Continua"
             page: 12
-          # Chapter 2 extended margin content (page 12 - verso, left margin)
+          # Chapter 2 margin equation (page 11 - recto, right margin)
           - subject: "Quadratica"
-            relation: leftOf
+            relation: rightOf
             object: "Formulix"
-            page: 12
+            page: 11
+          # Chapter 2 margin listing (page 12 - verso, left margin)
           - subject: "Quicksortix"
             relation: leftOf
             object: "Algorithmix"
             page: 12
-          # Appendix A margin content (page 17 - recto, right margin)
+          # Appendix A margin content (page 16 - verso, left margin)
           - subject: "Appendorba"
-            relation: rightOf
-            object: "Appendixia"
-            page: 17
-          # Appendix B margin content (page 20 - verso, left margin)
-          - subject: "Databvisual"
             relation: leftOf
+            object: "Appendixia"
+            page: 16
+          # Appendix B margin content (page 19 - recto, right margin)
+          - subject: "Databvisual"
+            relation: rightOf
             object: "Secondaria"
-            page: 20
-          # Margin callout position tests (EXPECTED TO FAIL)
-          # Bug: .column-margin on callouts not translated to #note() for Typst
-          # These callouts should be in margin but render in body instead
+            page: 19
+          # Margin callout position tests
+          # Callouts with .column-margin should be in the margin (rightOf body text on recto pages)
           - subject: "Apothegma"
             relation: rightOf
-            object: "Paleontologica"
-            page: 6
+            object: "Catharsis"
+            page: 5
           - subject: "Prolegomena"
             relation: rightOf
             object: "Hermeneutica"
@@ -421,11 +422,11 @@ _quarto:
             page: 11
           - subject: "Peripeteia"
             relation: rightOf
-            object: "Pterosaura"
-            page: 14
+            object: "Anagnorisis"
+            page: 13
           - subject: "Gnomicon"
             relation: rightOf
-            object: "Hadrosaura"
+            object: "Exegesis"
             page: 21
 ---
 

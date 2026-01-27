@@ -725,6 +725,7 @@ white
 ]
 Catharsis body text warns of impending beverage dangers.
 
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #figure([
 #block[
 #callout(
@@ -759,6 +760,9 @@ supplement: "Warning",
 numbering: callout-numbering, 
 )
 <wrn-tea>
+
+
+]
 
 
 == Custom Crossref Dinosaurs
@@ -1158,6 +1162,7 @@ Beveragia warning from #ref(<sec-intro>, supplement: [Chapter]) applies: see #re
 
 Hermeneutica body text interprets the hitchhiker's wisdom.
 
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #figure([
 #block[
 #callout(
@@ -1194,6 +1199,10 @@ numbering: callout-numbering,
 <tip-towel>
 
 
+]
+
+
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #block[
 #callout(
 body: 
@@ -1220,8 +1229,12 @@ body_background_color:
 white
 )
 ]
+]
+
+
 Philologica body text analyzes alien verse forms.
 
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #figure([
 #block[
 #callout(
@@ -1256,6 +1269,9 @@ supplement: "Note",
 numbering: callout-numbering, 
 )
 <nte-vogon>
+
+
+]
 
 
 == More Dinosaurs
@@ -1377,6 +1393,7 @@ Admonitia references from previous chapters:
 
 Anagnorisis body text reveals the cosmic truth.
 
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #figure([
 #block[
 #callout(
@@ -1411,6 +1428,9 @@ supplement: "Important",
 numbering: callout-numbering, 
 )
 <imp-answer>
+
+
+]
 
 
 == Custom crossref dinosaurs
@@ -1650,6 +1670,7 @@ numbering: callout-numbering,
 
 Appendicata body text introduces the supplementary guidance.
 
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #figure([
 #block[
 #callout(
@@ -1684,6 +1705,9 @@ supplement: "Tip",
 numbering: callout-numbering, 
 )
 <tip-appendix>
+
+
+]
 
 
 Advisoria reference in #ref(<tip-appendix>, supplement: [Tip]) demonstrates margin callout placement.
@@ -1948,6 +1972,7 @@ numbering: callout-numbering,
 
 Exegesis body text explicates supplementary guidance.
 
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #figure([
 #block[
 #callout(
@@ -1982,6 +2007,9 @@ supplement: "Tip",
 numbering: callout-numbering, 
 )
 <tip-appendix-b>
+
+
+]
 
 
 == Additional Dinosaurs
