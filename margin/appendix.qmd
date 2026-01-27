@@ -8,7 +8,7 @@ The data used in this book comes from various sources.
 
 ## Code Repository {#sec-code-repository}
 
-All code examples are available in the companion repository.
+All code examples are available in the companion repository. Computationa theory from @turing1950 establishes foundational concepts.
 
 Foundationa material in @sec-intro, with kinematica visualization in @fig-cars.
 
@@ -93,7 +93,7 @@ Comparativa: herbivorica specimen @dino-steg from @sec-intro.
 This long-necked dinosaur demonstrates appendix margin placement.
 :::
 
-Sauropoda body text discusses the margin dinosaur placement.
+Longneckia body text discusses the margin dinosaur placement.
 
 ## Appendix Equations {#sec-appendix-equations}
 

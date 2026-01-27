@@ -26,7 +26,7 @@ The figure above demonstrates a margin figure placement. The entire figure inclu
 
 Epicycloid reference body text introduces this figure.
 
-![Ptolemaica caption for body figure](logo.svg){#fig-margincap-epicycle .margin-caption}
+![Coperniciana caption for body figure](logo.svg){#fig-margincap-epicycle .margin-caption}
 
 The figure above shows a body figure with its caption placed in the margin.
 
@@ -141,7 +141,7 @@ Boundaria proven in @lem-triangle demonstrates margin theorem placement.
 
 ## Code Listings {#sec-code-listings}
 
-Listbody is body text that should left-align with code listings.
+Structurata programming principles from @dijkstra1968 inform our code style. Listbody is body text that should left-align with code listings.
 
 ```{#lst-hello .python lst-cap="Hello World in Python"}
 # Alignmark

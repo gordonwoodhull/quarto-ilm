@@ -21,6 +21,7 @@ book:
 bibliography: references.bib
 reference-location: margin
 citation-location: margin
+suppress-bibliography: true
 
 grid:
   margin-width: 2in

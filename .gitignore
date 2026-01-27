@@ -1,7 +1,12 @@
+# macOS
+.DS_Store
+
+# Generated outputs
 _book/
-/*.typ
-/*.pdf
+**/*.typ
+**/*.pdf
 *_files/
 
-/.quarto/
+# Quarto cache
+.quarto/
 **/*.quarto_ipynb

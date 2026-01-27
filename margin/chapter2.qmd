@@ -10,7 +10,7 @@ The postal service, meanwhile, continues to deliver mail to addresses that have 
 
 ## Tables {#sec-tables}
 
-Tabulara organization follows. See @tbl-data for the structured dataset.
+Informatica theory from @shannon1948 provides foundations. Tabulara @tbl-data presents the structured dataset.
 
 | Column A | Column B | Column C |
 |----------|----------|----------|
@@ -83,7 +83,7 @@ Diffractionica analysis in @fig-margin-panel shows margin subfigure placement wi
 
 ## Margin Citations {#sec-margin-citations}
 
-Newtonian reference body discusses classical mechanics. Newton established the laws of motion [@newton1687], which were later refined by Einstein [@einstein1905]. Bibliographic marginalia should appear in the margin for these citations.
+Newtoniana reference body discusses classical mechanics. Newton established the laws of motion [@newton1687], which were later refined by Einstein [@einstein1905]. Bibliographica marginalia should appear in the margin for these citations.
 
 Literatica programming discussed by @knuth84 informs our approach.
 

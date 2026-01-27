@@ -79,6 +79,9 @@ _quarto:
           - "#cite\\(<knuth84>"
           - "#cite\\(<newton1687>"
           - "#cite\\(<einstein1905>"
+          - "#cite\\(<turing1950>"
+          - "#cite\\(<dijkstra1968>"
+          - "#cite\\(<shannon1948>"
           - '#bibliography\(\("references\.bib"\)\)'
           # ilm emits parts as unnumbered headings
           - "#heading\\(level: 1, numbering: none\\)\\[Part I: Getting Started\\]"
@@ -178,7 +181,7 @@ _quarto:
         - # Chapter 1 figure captions and references
           - "Figure 1\\.1: A plot of the cars"
           - "Figure 1\\.2: Heliocircula"
-          - "Figure 1\\.3: Ptolemaica"
+          - "Figure 1\\.3: Coperniciana"
           - "Figure 1\\.4:.*line"
           - "Kinematica.*Figure 1\\.1"
           - "Parametrica.*Figure 1\\.4"
@@ -207,10 +210,13 @@ _quarto:
           - "Programmata.*Listing 1\\.1"
           - "Recursiva.*Listing 1\\.2"
           - "Iterativa.*Listing 1\\.3"
+          # Chapter 1 citations
+          - "Structurata"
           # Chapter 2 tables
           - "Table 2\\.1: Sample data"
           - "Table 2\\.2: Orbitperioda"
           - "Table 2\\.3: Elementica"
+          - "Informatica"
           - "Tabulara.*Table 2\\.1"
           - "Celestia.*Table 2\\.2"
           - "Absorptia.*Table 2\\.3"
@@ -263,6 +269,8 @@ _quarto:
           - "Dinosaur A\\.1:.*Ceratopsia"
           - "Dinosaur A\\.2:.*long-necked"
           - "Fossilica.*Dinosaur A\\.1"
+          # Appendix A citations
+          - "Computationa"
           # Appendix A equations
           - "Geometrica.*Equation \\(A\\.1\\)"
           - "surface law in Equation \\(A\\.2\\)"
@@ -296,7 +304,7 @@ _quarto:
           - "law in Equation \\(B\\.1\\)"
           # Unique margin content anchors
           - "Heliocircula"
-          - "Ptolemaica"
+          - "Coperniciana"
           - "Telescopia"
           - "Gravitolex"
           - "Orbitsolva"
@@ -310,6 +318,7 @@ _quarto:
           - "Ankylosaura"
           - "Diplodoca"
           - "Parasaura"
+          - "Longneckia"
           # Unique body anchors
           - "Heliovis"
           - "Galileana"
@@ -327,9 +336,11 @@ _quarto:
           - "Quadratica"
           - "Algorithmix"
           - "Quicksortix"
+          # Chapter 2 citation anchors
+          - "Newtoniana"
+          - "Bibliographica"
           # Chapter 3 citation anchors
           - "Algorithmia"
-          - "Bibliographica"
           # Margin theorem anchors
           - "Inequalitas"
           - "Triangulata"
@@ -428,6 +439,33 @@ _quarto:
             relation: rightOf
             object: "Exegesis"
             page: 21
+          # Sidenotes position tests (page 5 - recto, right margin)
+          - subject: "Telescopia"
+            relation: rightOf
+            object: "Galileana"
+            page: 5
+          # Margin caption position tests
+          - subject: "Coperniciana"
+            relation: leftOf
+            object: "Epicycloid"
+            page: 4  # verso page - margin on left
+          - subject: "Elementica"
+            relation: leftOf
+            object: "Spectralis"
+            page: 10  # verso page - margin on left
+          # Margin dinosaur position tests
+          - subject: "Ankylosaura"
+            relation: leftOf
+            object: "Thyreophora"
+            page: 6  # verso page - margin on left
+          - subject: "Diplodoca"
+            relation: rightOf
+            object: "Longneckia"
+            page: 17  # recto page - margin on right
+          - subject: "Parasaura"
+            relation: leftOf
+            object: "Hadrosaura"
+            page: 20  # verso page - margin on left
 ---
 
 # Preface {.unnumbered}
