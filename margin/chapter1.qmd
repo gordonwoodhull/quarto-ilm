@@ -126,12 +126,16 @@ For a right triangle with legs $a$ and $b$ and hypotenuse $c$: $a^2 + b^2 = c^2$
 
 Geometrica fundamentals established in @thm-pythagorean.
 
+Triangulata body text introduces the inequality lemma.
+
+::: {.column-margin}
 ::: {#lem-triangle}
 ## Triangle Inequality
-For any triangle with sides $a$, $b$, and $c$: $a + b > c$
+Inequalitas: For any triangle with sides $a$, $b$, and $c$: $a + b > c$
+:::
 :::
 
-Triangulata bounds proven in @lem-triangle.
+Boundaria proven in @lem-triangle demonstrates margin theorem placement.
 
 ## Code Listings {#sec-code-listings}
 

@@ -841,11 +841,15 @@ For a right triangle with legs $a$ and $b$ and hypotenuse $c$: $a^2 + b^2 = c^2$
 ] <thm-pythagorean>
 Geometrica fundamentals established in #ref(<thm-pythagorean>, supplement: [Theorem]).
 
+Triangulata body text introduces the inequality lemma.
+
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #lemma(title: "Triangle Inequality")[
-For any triangle with sides $a$, $b$, and $c$: $a + b > c$
+Inequalitas: For any triangle with sides $a$, $b$, and $c$: $a + b > c$
 
 ] <lem-triangle>
-Triangulata bounds proven in #ref(<lem-triangle>, supplement: [Lemma]).
+]
+Boundaria proven in #ref(<lem-triangle>, supplement: [Lemma]) demonstrates margin theorem placement.
 
 == Code Listings
 <sec-code-listings>
@@ -1292,11 +1296,15 @@ If $F$ is an antiderivative of $f$ on $\[ a \, b \]$, then: $integral_a^b f \( x
 ] <thm-calculus>
 Integrala foundations established in #ref(<thm-calculus>, supplement: [Theorem]).
 
+Continua body text introduces the continuity definition.
+
+#note(alignment: "baseline", dy: 0pt, shift: auto, counter: none)[
 #definition(title: "Continuous Function")[
-A function $f$ is continuous at $c$ if $lim_(x arrow.r c) f \( x \) = f \( c \)$.
+Limitica: A function $f$ is continuous at $c$ if $lim_(x arrow.r c) f \( x \) = f \( c \)$.
 
 ] <def-continuous>
-Continua limits defined in #ref(<def-continuous>, supplement: [Definition]).
+]
+Epsilondelta defined in #ref(<def-continuous>, supplement: [Definition]) demonstrates margin definition placement.
 
 Retrospectiva: #ref(<thm-pythagorean>, supplement: [Theorem]) and #ref(<lem-triangle>, supplement: [Lemma]) from #ref(<sec-intro>, supplement: [Chapter]) provide geometric foundations.
 

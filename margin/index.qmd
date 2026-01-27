@@ -199,7 +199,7 @@ _quarto:
           - "Theorem 1\\.1.*Pythagorean"
           - "Lemma 1\\.1.*Triangle"
           - "Geometrica.*Theorem 1\\.1"
-          - "Triangulata.*Lemma 1\\.1"
+          - "Boundaria.*Lemma 1\\.1"
           # Chapter 1 listings
           - "Listing 1\\.1:.*Hello World"
           - "Listing 1\\.2:.*Fibonacci"
@@ -232,7 +232,7 @@ _quarto:
           # Chapter 2 equations and theorems
           - "Algebraica.*Equation \\(2\\.1\\)"
           - "Integrala.*Theorem 2\\.1"
-          - "Continua.*Definition 2\\.1"
+          - "Epsilondelta.*Definition 2\\.1"
           # Chapter 2 listings
           - "Listing 2\\.1:.*Quicksort"
           - "Sortiva.*Listing 2\\.1"
@@ -329,6 +329,13 @@ _quarto:
           # Chapter 3 citation anchors
           - "Algorithmia"
           - "Bibliographica"
+          # Margin theorem anchors
+          - "Inequalitas"
+          - "Triangulata"
+          - "Boundaria"
+          - "Limitica"
+          - "Continua"
+          - "Epsilondelta"
       ensurePdfTextPositions:
         - # Code listings should be left-aligned with body text, not centered.
           - subject: "Alignmark"
@@ -358,6 +365,15 @@ _quarto:
             relation: leftOf
             object: "Chromatus"
             page: 10  # verso page - margin on left
+          # Chapter 1 margin theorem (lemma)
+          - subject: "Inequalitas"
+            relation: rightOf
+            object: "Triangulata"
+          # Chapter 2 margin definition (page 12 - verso, left margin)
+          - subject: "Limitica"
+            relation: leftOf
+            object: "Continua"
+            page: 12
           # Chapter 2 extended margin content (page 12 - verso, left margin)
           - subject: "Quadratica"
             relation: leftOf
