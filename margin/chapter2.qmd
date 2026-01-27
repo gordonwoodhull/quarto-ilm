@@ -91,21 +91,23 @@ Literatica programming discussed by @knuth84 informs our approach.
 
 Beveragia warning from @sec-intro applies: see @wrn-tea for safety protocols.
 
-::: {#tip-towel .callout-tip}
-## Whose Towel Is This?
-A towel is about the most massively useful thing an interstellar hitchhiker can have. Fabricata utility documented in @tip-towel.
-:::
+Hermeneutica body text interprets the hitchhiker's wisdom.
 
-Intergalactica body text introduces the hitchhiker's guide wisdom.
+::: {#tip-towel .callout-tip .column-margin}
+## Whose Towel Is This?
+Prolegomena: A towel is about the most massively useful thing an interstellar hitchhiker can have. Fabricata utility documented in @tip-towel.
+:::
 
 ::: {.callout-caution .column-margin}
 ## Paniculus
 Don't Panic. Under no circumstances should you allow yourself to panic.
 :::
 
-::: {#nte-vogon .callout-note}
+Philologica body text analyzes alien verse forms.
+
+::: {#nte-vogon .callout-note .column-margin}
 ## A Note About Vogon Poetry
-Vogon poetry is of course, the third worst in the universe. Poetica horrors catalogued in @nte-vogon.
+Scholiasta: Vogon poetry is of course, the third worst in the universe. Poetica horrors catalogued in @nte-vogon.
 :::
 
 ## More Dinosaurs {#sec-more-dinosaurs}

@@ -54,9 +54,11 @@ Methodologia continues in @sec-methods.
 The ships hung in the sky in much the same way that bricks don't. This is a note callout without a custom title.
 :::
 
-::: {#wrn-tea .callout-warning}
+Catharsis body text warns of impending beverage dangers.
+
+::: {#wrn-tea .callout-warning .column-margin}
 ## Whose Tea Is This?
-On no account allow anyone to make you a conditions-affected beverage. Beveragia hazard documented in @wrn-tea applies here.
+Apothegma: On no account allow anyone to make you a conditions-affected beverage. Beveragia hazard documented in @wrn-tea applies here.
 :::
 
 ## Custom Crossref Dinosaurs {#sec-custom-crossref-dinosaurs}

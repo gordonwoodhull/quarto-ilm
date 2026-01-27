@@ -33,9 +33,11 @@ Admonitia references from previous chapters:
 - Fabricata utility in @tip-towel from @sec-methods
 - Poetica horrors in @nte-vogon
 
-::: {#imp-answer .callout-important}
+Anagnorisis body text reveals the cosmic truth.
+
+::: {#imp-answer .callout-important .column-margin}
 ## The Answer
-The answer to the ultimate question of life, the universe, and everything is 42. Ultimata response documented in @imp-answer.
+Peripeteia: The answer to the ultimate question of life, the universe, and everything is 42. Ultimata response documented in @imp-answer.
 :::
 
 ## Custom crossref dinosaurs {#sec-custom-crossref-dinosaurs-ch3}

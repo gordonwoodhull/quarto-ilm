@@ -238,7 +238,7 @@ _quarto:
           - "Sortiva.*Listing 2\\.1"
           # Chapter 3 callouts
           - "Important 3\\.1: The Answer"
-          - "Ultimata response"
+          - "Ultimata"
           - "documented in Important 3\\.1"
           # Chapter 3 dinosaurs
           - "Dinosaur 3\\.1:.*Pterosaura"
@@ -336,6 +336,17 @@ _quarto:
           - "Limitica"
           - "Continua"
           - "Epsilondelta"
+          # Margin callout anchors (literary/classical)
+          - "Apothegma"
+          - "Catharsis"
+          - "Prolegomena"
+          - "Hermeneutica"
+          - "Scholiasta"
+          - "Philologica"
+          - "Peripeteia"
+          - "Anagnorisis"
+          - "Gnomicon"
+          - "Exegesis"
       ensurePdfTextPositions:
         - # Code listings should be left-aligned with body text, not centered.
           - subject: "Alignmark"
@@ -393,6 +404,29 @@ _quarto:
             relation: leftOf
             object: "Secondaria"
             page: 20
+          # Margin callout position tests (EXPECTED TO FAIL)
+          # Bug: .column-margin on callouts not translated to #note() for Typst
+          # These callouts should be in margin but render in body instead
+          - subject: "Apothegma"
+            relation: rightOf
+            object: "Paleontologica"
+            page: 6
+          - subject: "Prolegomena"
+            relation: rightOf
+            object: "Hermeneutica"
+            page: 11
+          - subject: "Scholiasta"
+            relation: rightOf
+            object: "Philologica"
+            page: 11
+          - subject: "Peripeteia"
+            relation: rightOf
+            object: "Pterosaura"
+            page: 14
+          - subject: "Gnomicon"
+            relation: rightOf
+            object: "Hadrosaura"
+            page: 21
 ---
 
 # Preface {.unnumbered}

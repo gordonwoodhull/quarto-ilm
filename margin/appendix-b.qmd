@@ -48,9 +48,11 @@ Dimensiona units in @tbl-appendix-b-margin demonstrate Appendix B margin table p
 Pericula secundaria hazard documented here. Monitoria reference in @wrn-appendix-b.
 :::
 
-::: {#tip-appendix-b .callout-tip}
+Exegesis body text explicates supplementary guidance.
+
+::: {#tip-appendix-b .callout-tip .column-margin}
 ## Appendix B Tip
-Consilia secundaria guidance provided here. Advisoria reference in @tip-appendix-b.
+Gnomicon: Consilia secundaria guidance provided here. Advisoria reference in @tip-appendix-b.
 :::
 
 ## Additional Dinosaurs {#sec-additional-dinosaurs}

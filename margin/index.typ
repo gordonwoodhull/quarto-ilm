@@ -723,12 +723,14 @@ body_background_color:
 white
 )
 ]
+Catharsis body text warns of impending beverage dangers.
+
 #figure([
 #block[
 #callout(
 body: 
 [
-On no account allow anyone to make you a conditions-affected beverage. Beveragia hazard documented in #ref(<wrn-tea>, supplement: [Warning]) applies here.
+Apothegma: On no account allow anyone to make you a conditions-affected beverage. Beveragia hazard documented in #ref(<wrn-tea>, supplement: [Warning]) applies here.
 
 ]
 , 
@@ -1154,12 +1156,14 @@ Literatica programming discussed by #cite(<knuth84>, form: "prose")#note(alignme
 <sec-more-callouts>
 Beveragia warning from #ref(<sec-intro>, supplement: [Chapter]) applies: see #ref(<wrn-tea>, supplement: [Warning]) for safety protocols.
 
+Hermeneutica body text interprets the hitchhiker's wisdom.
+
 #figure([
 #block[
 #callout(
 body: 
 [
-A towel is about the most massively useful thing an interstellar hitchhiker can have. Fabricata utility documented in #ref(<tip-towel>, supplement: [Tip]).
+Prolegomena: A towel is about the most massively useful thing an interstellar hitchhiker can have. Fabricata utility documented in #ref(<tip-towel>, supplement: [Tip]).
 
 ]
 , 
@@ -1190,8 +1194,6 @@ numbering: callout-numbering,
 <tip-towel>
 
 
-Intergalactica body text introduces the hitchhiker's guide wisdom.
-
 #block[
 #callout(
 body: 
@@ -1218,12 +1220,14 @@ body_background_color:
 white
 )
 ]
+Philologica body text analyzes alien verse forms.
+
 #figure([
 #block[
 #callout(
 body: 
 [
-Vogon poetry is of course, the third worst in the universe. Poetica horrors catalogued in #ref(<nte-vogon>, supplement: [Note]).
+Scholiasta: Vogon poetry is of course, the third worst in the universe. Poetica horrors catalogued in #ref(<nte-vogon>, supplement: [Note]).
 
 ]
 , 
@@ -1371,12 +1375,14 @@ Admonitia references from previous chapters:
 - Fabricata utility in #ref(<tip-towel>, supplement: [Tip]) from #ref(<sec-methods>, supplement: [Chapter])
 - Poetica horrors in #ref(<nte-vogon>, supplement: [Note])
 
+Anagnorisis body text reveals the cosmic truth.
+
 #figure([
 #block[
 #callout(
 body: 
 [
-The answer to the ultimate question of life, the universe, and everything is 42. Ultimata response documented in #ref(<imp-answer>, supplement: [Important]).
+Peripeteia: The answer to the ultimate question of life, the universe, and everything is 42. Ultimata response documented in #ref(<imp-answer>, supplement: [Important]).
 
 ]
 , 
@@ -1940,12 +1946,14 @@ numbering: callout-numbering,
 <wrn-appendix-b>
 
 
+Exegesis body text explicates supplementary guidance.
+
 #figure([
 #block[
 #callout(
 body: 
 [
-Consilia secundaria guidance provided here. Advisoria reference in #ref(<tip-appendix-b>, supplement: [Tip]).
+Gnomicon: Consilia secundaria guidance provided here. Advisoria reference in #ref(<tip-appendix-b>, supplement: [Tip]).
 
 ]
 , 
