@@ -1,3 +1,14 @@
-// Empty page.typ - overrides Quarto's core page.typ
-// Marginalia setup is handled in typst-show.typ AFTER ilm.with()
+#set page(
+  paper: $if(papersize)$"$papersize$"$else$"us-letter"$endif$,
+$if(margin-geometry)$
+  // Margins handled by marginalia.setup in typst-show.typ AFTER ilm.with()
+$elseif(margin)$
+  margin: ($for(margin/pairs)$$margin.key$: $margin.value$,$endfor$),
+$else$
+  margin: (x: 1.25in, y: 1.25in),
+$endif$
+  numbering: $if(page-numbering)$"$page-numbering$"$else$none$endif$,
+  columns: $if(columns)$$columns$$else$1$endif$,
+)
+// NOTE: marginalia.setup is called in typst-show.typ AFTER ilm.with()
 // to ensure marginalia's margins override ILM's default margins
